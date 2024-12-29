@@ -106,9 +106,9 @@ public class Main extends JFrame {
         parameterPanel.add(Box.createRigidArea(new Dimension(8, 0)));
         parameterPanel.add(variablesAndFieldsCheckBox);
         parameterPanel.add(Box.createRigidArea(new Dimension(8, 0)));
-        parameterPanel.add(new JLabel("Max Files Per Partition:"));
-        parameterPanel.add(Box.createRigidArea(new Dimension(8, 0)));
-        parameterPanel.add(maxFilesPerPartitionTextField);
+        // parameterPanel.add(new JLabel("Max Files Per Partition:"));
+        // parameterPanel.add(Box.createRigidArea(new Dimension(8, 0)));
+        // parameterPanel.add(maxFilesPerPartitionTextField);
 
         // Third horizontal container for buttons
         JPanel buttonPanel = new JPanel();
@@ -166,7 +166,7 @@ public class Main extends JFrame {
         });
         mainPanel.add(Box.createRigidArea(new Dimension(0, 8)));
         mainPanel.add(mydetails);
-        mainPanel.add(credits);
+        // mainPanel.add(credits);
 
         JScrollPane scrollPane = new JScrollPane(mainPanel);
         scrollPane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
